@@ -1,3 +1,9 @@
+---
+title: MoM_ActionItems_Generator
+app_file: MoM_ActionItems_Generator.py
+sdk: gradio
+sdk_version: 5.0.2
+---
 # **Developing an AI Model for Generating MoM and Action Items Using a Zero-Shot Approach**
 
 ## **Overview**

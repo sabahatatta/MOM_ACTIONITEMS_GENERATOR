@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Log in to Hugging Face
-      run: huggingface-cli login --token ${{ secrets.hf_token }}
+      run: huggingface-cli login --token ${{secrets.hf_token}}
 
     - name: Push to Hugging Face Space
-      run: huggingface-cli repo upload . --repo-id <sabahatatta>/<MoMGenerator> --branch main
+      run: huggingface-cli repo upload . --repo-id sabahatatta/MoMGenerator --branch main
